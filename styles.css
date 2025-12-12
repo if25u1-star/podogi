@@ -1,0 +1,63 @@
+body {
+  /* Обнулення зовнішніх відступів */
+  margin: 0; 
+  /* Шрифт */
+  font-family: 'Roboto', sans-serif;
+  /* Колір тексту */
+  color: #333;
+  /* Колір фону */
+  background-color: #eaeaea;
+  /* Розмір тексту */
+  font-size: 16px;
+}
+/* Стилізація головної секції section-main */
+.section-main {
+  /* Колір фону */
+  background-color: #556b2f; 
+  /* Внутрішній відступ зверху */
+  padding-top: 40px; 
+  /* Внутрішній відступ знизу */
+  padding-bottom: 120px;
+  /* Вирівнювання дочірніх елементів: по центру (justify-content) і в стовпець (flex-direction) */
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+/* Стилізація логотипу (припускаємо, що це елемент-дочірній section-main) */
+.section-main img {
+  /* Ширина логотипу */
+  width: 160px;
+}
+
+/* Стилізація заголовка section-main-title */
+.section-main-title {
+  /* Зовнішній відступ зверху */
+  margin-top: 40px;
+  /* Зовнішній відступ знизу */
+  margin-bottom: 20px;
+  /* Колір тексту */
+  color: #fff;
+  /* Шрифт */
+  font-family: 'Lora', serif; 
+  /* Розмір тексту */
+  font-size: 55px;
+  /* Напівжирний шрифт */
+  font-weight: 700;
+  /* Обнуляємо margin-left/right, якщо не потрібен */
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center; /* Додано для кращого вигляду по центру */
+}
+
+/* Стилізація підзаголовка section-main-subtitle */
+.section-main-subtitle {
+  /* Зовнішній відступ знизу */
+  margin-bottom: 40px;
+  /* Колір тексту */
+  color: #fff;
+  /* Розмір тексту */
+  font-size: 22px;
+  /* Обнуляємо margin-top/left/right, якщо не потрібен */
+  margin-top: 0;
+  margin-left: 0;
