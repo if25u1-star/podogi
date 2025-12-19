@@ -38,3 +38,81 @@ body {
     /* Зменшення ширини логотипу до 35px (замість 50px) */
     width: 35px;
 }
+/* Основний заголовок */
+.section-main-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+/* Підзаголовок */
+.section-main-subtitle {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 22px;
+}
+
+/* Кнопка */
+.section-main-button {
+    background-color: #8fbc8f;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase; /* Всі літери великі */
+    padding: 12px 30px; /* Спочатку зверху/знизу, потім зліва/справа */
+    cursor: pointer;
+}
+
+/* Посилання в меню */
+.menu-item-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease; /* Додано для плавного переходу кольору */
+}
+
+/* Стан при наведенні на пункт меню */
+.menu-item-link:hover {
+    color: #ff6f61;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(’Goverla.jpg’) no-repeat center center/
+cover;
+    height: 100vh;
+    color: white;
+}
+/* Контейнер шапки */
+.head {
+    display: flex; /* Активуємо Flexbox для вирівнювання */
+    justify-content: space-between; /* Вирівнювання по ширині з пропусками */
+    align-items: center; /* Центрування по вертикалі */
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* 20px зверху/знизу, 0 зліва/справа */
+}
+
+/* Логотип */
+.head img, .logo {
+    width: 50px;
+}
+
+/* Список меню */
+.menu-links {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Прибираємо маркери списку */
+}
+
+/* Елементи списку меню */
+.menu-item {
+    display: inline; /* Розташування в рядок */
+    margin: 0 15px; /* 0 зверху/знизу, 15px зліва/справа */
+}
