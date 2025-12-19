@@ -84,7 +84,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url(’Goverla.jpg’) no-repeat center center/
+    background: url('Goverla.jpg') no-repeat center center/
 cover;
     height: 100vh;
     color: white;
@@ -116,3 +116,4 @@ cover;
     display: inline; /* Розташування в рядок */
     margin: 0 15px; /* 0 зверху/знизу, 15px зліва/справа */
 }
+
